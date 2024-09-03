@@ -1,0 +1,90 @@
+.country {
+    &__title {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 4.6rem;
+        padding-left: 40rem;
+        text-align: left;
+        color: #1C1C1C;
+        font-family: Roboto;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+
+    &__wrap {
+        width: 112rem;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        margin-bottom: 10rem;
+        gap: 4.8rem;
+    }
+
+    &__group {
+        display: block;
+        margin: 0 auto;
+        margin-left: 8rem;
+        margin-bottom: 5.2rem;
+        position: relative;
+    }
+
+    &__alphabet {
+        display: block;
+        color: #D4D4D4;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 84px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        text-transform: uppercase;
+        position: absolute;
+        top: -2rem;
+        left: -8rem;
+    }
+
+    &__box {
+        display: block;
+        width: 256px;
+        height: 60px;
+        margin-bottom: 1.2rem;
+        padding-top: 1rem;
+        padding-left: 6.5rem;
+        border-radius: 30px;
+        background: #F8F8F8;
+        text-align: left;
+        position: relative;
+    }
+
+    &__img {
+        display: block;
+        width: 42px;
+        height: 42px;
+        position: absolute;
+        top: .8rem;
+        left: 1rem;
+    }
+
+    &__name {
+        display: block;
+        color: #000;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+    }
+
+    &__text {
+        display: block;
+        color: #585858;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+    }
+}
